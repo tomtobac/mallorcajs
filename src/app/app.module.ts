@@ -6,9 +6,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-/* Vendor Modules */
-import { MaterializeModule } from 'ng2-materialize';
-
 @NgModule({
   declarations: [],
   imports: [
@@ -16,10 +13,9 @@ import { MaterializeModule } from 'ng2-materialize';
     FormsModule,
     HttpModule,
     CoreModule,
-    DashboardModule,
-    MaterializeModule.forRoot()
+    DashboardModule
   ],
   providers: [],
-  bootstrap: [ AppComponent ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
