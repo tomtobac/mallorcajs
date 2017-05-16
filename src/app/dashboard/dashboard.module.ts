@@ -1,3 +1,6 @@
+import { NewsModule } from './../news/news.module';
+import { JobsModule } from './../jobs/jobs.module';
+import { CalendarModule } from './../calendar/calendar.module';
 import { MaterializeModule } from 'ng2-materialize';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -9,7 +12,10 @@ import { DashboardComponent } from './dashboard.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    MaterializeModule
+    MaterializeModule,
+    CalendarModule,
+    JobsModule,
+    NewsModule
   ],
   declarations: [DashboardComponent]
 })
