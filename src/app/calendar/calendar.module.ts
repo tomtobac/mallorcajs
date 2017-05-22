@@ -1,4 +1,4 @@
-import { MaterializeModule } from 'ng2-materialize';
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CalendarComponent } from './calendar.component';
@@ -6,7 +6,7 @@ import { CalendarComponent } from './calendar.component';
 @NgModule({
   imports: [
     CommonModule,
-    MaterializeModule
+    SharedModule
   ],
   declarations: [CalendarComponent],
   exports: [CalendarComponent]
