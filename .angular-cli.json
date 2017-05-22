@@ -18,10 +18,11 @@
     "testTsconfig": "tsconfig.spec.json",
     "prefix": "app",
     "styles": [
-      "styles.css"
+      "styles.css",
+      "theme.scss",
+      "../node_modules/@covalent/core/common/platform.scss"
     ],
-    "scripts": [
-    ],
+    "scripts": [],
     "environmentSource": "environments/environment.ts",
     "environments": {
       "dev": "environments/environment.ts",
