@@ -3,9 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <mz-navbar [navbarClass]="'blue'">
-        <div class="brand-logo center">MallorcaJS</div>
-    </mz-navbar>
+    <nav>MallorcaJS</nav>
     <div class="container">
       <router-outlet></router-outlet>
     </div>
